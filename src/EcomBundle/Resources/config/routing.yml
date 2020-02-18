@@ -1,0 +1,15 @@
+ecom_homepage:
+    path:     /actualite
+    defaults: { _controller: EcomBundle:Default:actualite }
+ecom_location:
+    path:     /location
+    defaults: { _controller: EcomBundle:Default:location }
+ecom_formulaire:
+    path:     /formulaire
+    defaults: { _controller: EcomBundle:Default:formulaire }
+ecom_vente:
+    path:     /ecom_vente
+    defaults: { _controller: EcomBundle:Vente:location }
+ecom_formulaire_vente:
+    path:     /formulaire_vente
+    defaults: { _controller: EcomBundle:Vente:formulaire }

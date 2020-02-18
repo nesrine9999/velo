@@ -1,0 +1,21 @@
+admin_homepage:
+    path:     /
+    defaults: { _controller: AdminBundle:Dashboard:index }
+admin_AfficherUser:
+    path:     /AfficherUser
+    defaults: { _controller: AdminBundle:Dashboard:AfficherUser}
+Ajouter:
+    path:     /Ajouter
+    defaults: { _controller: AdminBundle:Dashboard:Ajouter}
+actualitemodifier:
+     path:     /actualitemodifier/{id}
+     defaults: { _controller: AdminBundle:Dashboard:modifieractualite}
+Affiche:
+      path:     /Affiche
+      defaults: { _controller: AdminBundle:Dashboard:Affiche}
+Supprimer:
+      path:     /Supprimer/{id}
+      defaults: { _controller: AdminBundle:Dashboard:Supprimer}
+Reparateurs:
+      path:     /Reparateurs
+      defaults: { _controller: AdminBundle:Dashboard:Reparateurs}

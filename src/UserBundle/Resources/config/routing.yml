@@ -1,0 +1,32 @@
+user_page_homepage:
+    path:     /
+    defaults: { _controller: UserBundle:Default:index }
+
+user_inscription:
+    path:     /register
+    defaults: { _controller: UserBundle:Default:inscription}
+
+EspaceAcheteur:
+    path:     /EspaceAcheteur
+    defaults: { _controller: UserBundle:Default:EspaceAcheteur}
+rendezvous:
+    path:     /rendezvous/{id}
+    defaults: { _controller: UserBundle:Default:rendezvous}
+EspaceReparateur:
+    path:     /EspaceReparateur
+    defaults: { _controller: UserBundle:Default:EspaceReparateur}
+EspaceRdv:
+    path:     /EspaceRdv/{id}
+    defaults: { _controller: UserBundle:Default:EspaceRdv}
+boot:
+    path:     /boot
+    defaults: { _controller: UserBundle:Default:boot}
+index:
+    path:     /index
+    defaults: { _controller: UserBundle:Default:index}
+ajax_search:
+    path:     /search
+    defaults: { _controller: UserBundle:Default:search }
+
+
+
